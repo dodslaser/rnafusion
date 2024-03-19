@@ -108,6 +108,11 @@
                     "fa_icon": "far fa-file-code",
                     "description": "Path to arriba references"
                 },
+                "arriba_limitSjdbInsertNsj": {
+                    "type": "integer",
+                    "fa_icon": "far fa-file-code",
+                    "description": "Use limitSjdbInsertNsj with int for arriba STAR process"
+                },
                 "arriba_ref_blacklist": {
                     "type": "string",
                     "fa_icon": "far fa-file-code",
@@ -207,6 +212,11 @@
                     "type": "string",
                     "fa_icon": "far fa-file-code",
                     "description": "Path to starfusion output"
+                },
+                "starfusion_limitSjdbInsertNsj": {
+                    "type": "integer",
+                    "fa_icon": "far fa-file-code",
+                    "description": "Use limitSjdbInsertNsj with int for starfusion STAR process"
                 },
                 "starfusion_ref": {
                     "type": "string",
